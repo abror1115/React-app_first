@@ -1,0 +1,22 @@
+.btn{
+    margin-right: 10px;
+    width: 150px;
+    padding: 10px 0;
+    border:none;
+    cursor: pointer;
+    &.yellow{
+        background: yellow;
+    }
+    &.red{
+        background: red;
+    }
+    &.blue{
+        background: blue;
+    }
+    &.green{
+        background: green;
+    }
+    &.pink{
+        background: pink;
+    }
+}

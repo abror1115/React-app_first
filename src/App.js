@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import Button from './components/Button/button';
+import Tickets from './pages/Tickets/tickets'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Tickets/>
+    {/* <h1>
+      Salom dunyo
+    </h1>
+
+    <Button title = 'Sariq'  subtitle = "Ranglar" btnType = 'yellow'/>
+    <Button title = 'Qizil'  subtitle = "Ranglar" btnType = 'red'/>
+    <Button title = "Ko'k"   subtitle = "Ranglar" btnType = 'blue'/>
+    <Button title = 'Yashil' subtitle = "Ranglar" btnType = 'green'/>
+    <Button title = 'Pushti' subtitle = "Ranglar" btnType = 'pink'/> */}
+   </>
   );
 }
 

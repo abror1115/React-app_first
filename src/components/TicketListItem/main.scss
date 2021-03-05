@@ -1,0 +1,93 @@
+.ticket-list-item{
+    display: flex;
+    border-top: 1px solid #dfe0eb;
+    padding: 24px 32px;
+    .item-left{
+        display: flex;
+        margin-right: 40px;
+        width: 372px;
+        .ticket-owner{
+            .owner-title{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #252733;
+            }
+            .owner-activity{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: 0.1px;
+                color: #C5C7CD;
+            }
+        }
+    }
+    .item-right{
+        display: flex;
+        // justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        .customer{
+            width: 208px;
+            margin-right: 40px;
+            .customer-name{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #252733;
+            }
+            .customer-time{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: 0.1px;
+                color: #C5C7CD;
+            }
+        }
+        .date{
+            width: 140px;
+            margin-right: 40px;
+            .date-day{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #252733;
+            }
+            .date-hour{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: 0.1px;
+                color: #C5C7CD; 
+            }
+        }
+        .status{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background: #F12B2C;
+            padding: 5px 12px;
+            border-radius: 100px;
+            &:nth-child(2){
+                background: #FEC400;
+                color:red;
+            }
+        }
+    }
+}

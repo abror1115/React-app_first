@@ -1,0 +1,35 @@
+.sidebar-btn{
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    padding: 18px 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #DDE2FF;
+    outline: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    border-left: 3px solid transparent;
+    .btn-icon{
+        margin-right: 20px;
+    }
+    .sidebar-icon{
+        fill: #9fa2b4;
+        opacity: 0.4;
+    }
+    &:hover{
+        background: rgba(159, 162, 180, 0.08);
+        color:#dde2ff;
+        border-left:3px solid #dde2ff;
+        .sidebar-icon{
+            fill: #DDE2FF;
+            opacity: 1;
+        }
+    }
+}
